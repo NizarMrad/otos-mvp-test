@@ -12,18 +12,18 @@
  *
  *= require_tree .
  *= require_self
- *= require assets/css/owl.carousel.css
- *= require assets/css/owl.theme.css
- *= require assets/css/bootstrap.min.css
- *= require assets/css/hover-min.css
- *= require assets/css/nile_icons.css
- *= require assets/css/style.css
- *= require assets/css/colors/color-2.css
- *= require assets/css/nile-slider.css
- *= require assets/css/elegant_icon.css
- *= require assets/css/animate.css
- *= require assets/fonts/font-awesome/css/font-awesome.min.css
- *= require assets/rslider/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css
- *= require assets/rslider/fonts/font-awesome/css/font-awesome.css
- *= require assets/rslider/css/settings.css
+ *= require assets/css/owl.carousel
+ *= require assets/css/owl.theme
+ *= require assets/css/bootstrap.min
+ *= require assets/css/hover-min
+ *= require assets/css/nile_icons
+ *= require assets/css/style
+ *= require assets/css/colors/color-2
+ *= require assets/css/nile-slider
+ *= require assets/css/elegant_icon
+ *= require assets/css/animate
+ *= require assets/fonts/font-awesome/css/font-awesome.min
+ *= require assets/rslider/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke
+ *= require assets/rslider/fonts/font-awesome/css/font-awesome
+ *= require assets/rslider/css/settings
  */

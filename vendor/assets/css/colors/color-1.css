@@ -19,15 +19,18 @@
 .about-me-banner {
   background-image: url(http://placehold.it/1920x980);
 }
+ {
+  background-image: url();
+}
 
 .footer_1_ba {
   background-color: #fff;
-  background-image: url(../../../assets/img/footer_1_ba.jpg);
+  background-image: url(<%=asset_path"footer_1_ba.jpg"%>);
   background-size: cover;
 }
 
 .nile-page-title {
-  background-image: url(../../../assets/img/page-title.jpg);
+  background-image: url(<%=asset_path"page-title.jpg"%>);
   background-size: cover;
 }
 

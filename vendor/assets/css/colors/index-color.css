@@ -38,13 +38,13 @@
 
 .section-ba-2 {
   background-color: #f3f3f3;
-  background-image: url(/app/assets/images/ba_section_2.jpg);
+  background-image: url(<%=asset_path"ba_section_2.jpg"%>);
   background-size: cover;
 }
 
 .section-ba-4 {
   background-color: #fe3f4a;
-  background-image: url(../../../assets/img/call_action_ba.png);
+  background-image: url(<%=asset_path"call_action_ba.png"%>);
   background-attachment: fixed;
 }
 
@@ -58,12 +58,12 @@
 
 .footer_1_ba {
   background-color: #fff;
-  background-image: url(../../../assets/img/footer_1_ba.jpg);
+  background-image: url(<%=asset_path"footer_1_ba.jpg"%>);
   background-size: cover;
 }
 
 .nile-page-title {
-  background-image: url(../../../assets/img/page-title.jpg);
+  background-image: url(<%=asset_path"page-title.jpg"%>);
   background-size: cover;
 }
 
@@ -109,7 +109,7 @@
   height: 100%;
   opacity: 0.1;
   background-size: cover;
-  background-image: url(../../../assets/img/home-mockup.jpg);
+  background-image: url(<%=asset_path"home-mockup.jpg"%>);
   z-index: -1;
 }
 
@@ -219,7 +219,7 @@
 }
 
 #home-footer {
-  background-image: url(../../../assets/rslider/assets/c5b71-slider-2.jpg);
+  background-image: url(<%=asset_path"c5b71-slider-2.jpg"%>);
   background-size: cover;
   background-position: center center;
   text-align: center;

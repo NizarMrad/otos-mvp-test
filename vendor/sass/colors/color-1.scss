@@ -16,7 +16,7 @@ $baColor3: #fef1f4;
 
 .section-ba-2 {
   background-color: #f3f3f3;
-  background-image: url(/app/assets/images/ba_section_2.jpg);
+  background-image: url(<%=image_tag"ba_section_2.jpg"%>);
   background-size: cover;
 }
 
@@ -30,12 +30,12 @@ $baColor3: #fef1f4;
 
 .footer_1_ba {
   background-color: #fff;
-  background-image: url(/app/assets/images/footer_1_ba.jpg);
+  background-image: url(<%=image_tag"footer_1_ba.jpg"%>);
   background-size: cover;
 }
 
 .nile-page-title {
-  background-image: url(/app/assets/images/page-title.jpg);
+  background-image: url(<%=image_tag"page-title.jpg"%>);
   background-size: cover;
 }
 

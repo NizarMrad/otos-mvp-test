@@ -8,7 +8,7 @@
 
 .section-ba-2 {
   background-color: #f3f3f3;
-  background-image: url(<%=asset_path"ba_section_2.jpg"%>);
+  background-image: url(<%=image_tag"ba_section_2.jpg"%>);
   background-size: cover;
 }
 
@@ -34,19 +34,20 @@ footer.layout-2 ul.social-media li a:hover {
 }
 
 .fizo-img-text.layout-1.ba-1:before {
-  background-image: url(http://placehold.it/630x420);
+  background-image: url(/assets/otos-3.png);
+  object-fit: cover;
 }
 
 .fizo-img-text.layout-1.ba-2:before {
-  background-image: url(http://placehold.it/630x420);
+  background-image: url(/assets/otos-4.png);
 }
 
 .fizo-img-text.layout-1.ba-3:before {
-  background-image: url(http://placehold.it/630x420);
+  background-image: url(/assets/otos-6.jpg);
 }
 
 .fizo-call-action.layout-1:before {
-  background-image: url(http://placehold.it/1920x1200);
+  background-image: url(/assets/otos-2.jpg);
 }
 
 .fizo-blog.layout-2 a.title_in:hover {
